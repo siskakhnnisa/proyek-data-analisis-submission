@@ -60,4 +60,4 @@ pip install -r requirements.txt
 ```
 streamlit run dashboard.py
 ```
-**Atau dapat akses link berikut: https://8bnsqgrmpmecyjhiqycjr3.streamlit.app/**
+**Atau dapat akses link berikut: https://flmbeamnw67desizfqvpvl.streamlit.app/**
