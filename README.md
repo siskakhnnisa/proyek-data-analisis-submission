@@ -8,7 +8,7 @@ Proyek ini bertujuan untuk menganalisis data pada E-Commerce Public Dataset. Tuj
 
 ## Struktur Direktori
 
-- **/dashboard**: Direktori ini berisi main_data yang digunakan untuk membuat dashboard hasil analisis data dan data yang digunakan dalam proyek, dalam format .csv 
+- **/dashboard**: Direktori ini berisi main_data dan geolocation_dataset yang digunakan untuk membuat dashboard hasil analisis data dan data yang digunakan dalam proyek, dalam format .csv 
 - **/data**: Direktori ini berisi dataset yang digunakan dalam analisis data.
 - **notebook**: File ini yang digunakan untuk melakukan analisis data (format file:ipynb).
 - **requirements**: File ini mencantumkan berbagai library yang digunakan selama proses analisis data.
@@ -20,7 +20,7 @@ Proyek ini bertujuan untuk menganalisis data pada E-Commerce Public Dataset. Tuj
 1. Clone repository ini ke komputer lokal Anda menggunakan perintah berikut:
 
    ```shell
-   git clone https://github.com/siskakhnnisa/proyek-analisis-submission.git
+   git clone https://github.com/siskakhnnisa/proyek-data-analisis-submission.git
    ```
 
 2. Pastikan Anda memiliki lingkungan Python yang sesuai dan pustaka-pustaka yang diperlukan. Anda dapat menginstal pustaka-pustaka tersebut dengan menjalankan perintah berikut:
@@ -34,7 +34,7 @@ Proyek ini bertujuan untuk menganalisis data pada E-Commerce Public Dataset. Tuj
 1. Masuk ke direktori proyek (Local):
 
     ```shell
-    cd proyek-analisis-submission/dashboard/
+    cd proyek-data-analisis-submission/dashboard/
     streamlit run dashboard.py
     ```
 
@@ -49,8 +49,8 @@ pip install -r requirements.txt
 
 ## Setup Environment - Shell/Terminal
 ```
-mkdir proyek_analisis_data
-cd proyek_analisis_data
+mkdir proyek_data_analisis_submission
+cd proyek_data_analisis_submission
 pipenv install
 pipenv shell
 pip install -r requirements.txt
@@ -60,4 +60,4 @@ pip install -r requirements.txt
 ```
 streamlit run dashboard.py
 ```
-**Atau dapat akses link berikut: https://kyccugeedpkqyp8ukckmgk.streamlit.app/**
+**Atau dapat akses link berikut: https://8bnsqgrmpmecyjhiqycjr3.streamlit.app/**
